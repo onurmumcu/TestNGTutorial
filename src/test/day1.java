@@ -4,6 +4,7 @@ import org.testng.Assert;
 import org.testng.annotations.AfterSuite;
 import org.testng.annotations.AfterTest;
 import org.testng.annotations.Test;
+import org.testng.asserts.SoftAssert;
 
 public class day1 {
 
@@ -18,8 +19,11 @@ public class day1 {
 	@Test
 	public void Demo()
 	{
-		System.out.println("hello");//automation
-		Assert.assertTrue(false);
+		System.out.println("hello");      //automation
+//		SoftAssert assertion = new SoftAssert();
+//		assertion.assertTrue(true, "oylesine mesaj yazdim");
+//		//Assert.assertTrue(false);
+//		assertion.assertAll();
 	}
 	@AfterSuite
 	
